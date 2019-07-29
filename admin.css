@@ -1,0 +1,70 @@
+body{
+    background-color: white;
+}
+
+/* slide kiri */
+.slide-kiri{
+    overflow: hidden;
+    float: left;
+}
+.slide-kiri .shortcut{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(69,155,169,0.8337710084033614) 57%, rgba(125,95,128,0.6881127450980392) 100%);
+    height: 100%;
+    width: 70px;
+}
+.slide-kiri .gambar{
+    width: 70px;
+    background-color: aliceblue;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.item .menu p:hover{
+    background-color: black !important;
+    transition: all 1s;
+}
+.slide-kiri .gambar img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+.slide-kiri .icon-item-menu{
+    font-size: 30px;
+    text-align: center;
+    margin: 50 15 0 15px;
+    color: white;
+}
+.slide-kiri .item{
+    margin-top: 127px
+}
+/* ## */
+/* slide kanan */
+.slide-kanan{
+    float: left;
+    background-color: rgba(126, 122, 122, 0.144);
+    height: 100%;
+    width: 210px;
+}
+.kanan-gambar{
+    text-align: center;
+    color: rgba(121, 115, 115, 0.747)
+}
+.kanan-gambar img{
+    height: 100px;
+    width: 100px;
+    margin: 50 0 20 0px;
+    border: 1px;
+    border-style:outset;
+    border-radius: 180px;
+}
+.kanan-list li{
+    list-style: none;
+}
+.kanan-list a{
+    color: rgba(17, 16, 16, 0.575);
+    font-size: 25px;
+}
+.kanan-list li{
+    margin: 15 0 44 0px;
+}
+/* ## */

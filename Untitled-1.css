@@ -1,0 +1,21 @@
+body{
+}
+.sidebar{
+    height: 100%;
+    width: 70px;
+    background-color: lightblue;
+}
+.sidebar li{
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 0px;
+}
+.sidebar img{
+    width: 30px;
+    height: 30px;
+}.sidebar i{
+    background-color: red;
+    font-size: 30px;
+
+}
